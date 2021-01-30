@@ -60,7 +60,11 @@
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\FireGun.cs" />
+    <Compile Include="Assets\Scripts\Chase.cs" />
+    <Compile Include="Assets\Scripts\PlayerTarget.cs" />
+    <Compile Include="Assets\Scripts\EnemyFire.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -642,9 +646,17 @@
       <Project>{9938998C-D7AD-8B38-7933-FE96A80E03AB}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{7655DBDC-53F1-0468-8F5C-27808FEDAEED}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{AA43A214-240D-CEEA-8762-FC06492AB25F}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{EE4E3DBC-B5EA-DEE3-89C5-32C5F52ECEDC}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
       <Project>{02357647-5BC2-27B4-9EB5-73FF0E9242B9}</Project>
