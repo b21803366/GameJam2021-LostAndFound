@@ -376,9 +376,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Round\StepNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Input\Lighting\BakedGINode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Trigonometry\HyperbolicCosineNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\PortInputView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Colors\CategoryColors.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Controls\ChannelMixerControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\PortInputView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Round\TruncateNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Controls\ChannelEnumControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\Slots\CubemapSlotControlView.cs" />
